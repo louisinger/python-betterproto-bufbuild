@@ -11,3 +11,12 @@ plugins:
   - remote: buf.build/judahrand/plugins/python-betterproto:v1.2.5-1
     out: gen
 ```
+
+# push the plugin to buf.build
+
+To run `make push` you must be logged in to buf.build
+
+```bash
+ docker login -u USERNAME plugins.buf.build 
+```
+

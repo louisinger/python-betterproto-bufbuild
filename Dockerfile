@@ -1,6 +1,6 @@
-FROM python:3.7-slim
+FROM python:3.9-slim
 
-ARG VERSION=1.2.5
+ARG VERSION=2.0.0b5
 
 RUN pip install "betterproto[compiler]==${VERSION}"
 
